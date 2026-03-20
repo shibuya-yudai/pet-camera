@@ -1,0 +1,37 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 環境変数
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Xcode
+*.xcuserdata
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.xcodeproj/**/xcuserdata/
+*.xcworkspace/**/UserInterfaceState.xcuserstate
+
+# Swift / iOS
+.build/
+.swiftpm/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# プロジェクト固有
+output/
+temp/
+cache/
+
+# テスト結果
+test_report.txt
+test_output.log

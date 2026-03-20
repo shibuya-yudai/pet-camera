@@ -1,0 +1,33 @@
+name: PetCamera
+options:
+  bundleIdPrefix: com.shibuya-yudai.petcamera
+  deploymentTarget:
+    iOS: "18.0"
+settings:
+  SWIFT_VERSION: "5"
+targets:
+  PetCamera:
+    type: application
+    platform: iOS
+    sources:
+      - App/
+    dependencies:
+      - package: PCFeatures
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.shibuya-yudai.petcamera
+      DEVELOPMENT_TEAM: 3QVL9P7T78
+      CODE_SIGN_STYLE: Automatic
+      GENERATE_INFOPLIST_FILE: YES
+      INFOPLIST_KEY_NSCameraUsageDescription: "顔の動きを検出してペットカメラの視点を動かすためにカメラを使用します"
+      INFOPLIST_KEY_UILaunchScreen_Generation: YES
+      INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait"
+      INFOPLIST_KEY_UIRequiredDeviceCapabilities: "arkit"
+packages:
+  PCCore:
+    path: Packages/PCCore
+  PCTracking:
+    path: Packages/PCTracking
+  PCScene:
+    path: Packages/PCScene
+  PCFeatures:
+    path: Packages/PCFeatures

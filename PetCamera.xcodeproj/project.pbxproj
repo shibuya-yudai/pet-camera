@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		285B7F71D8E135B944ED3326 /* PetCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30DB68A73536D2B9C11AC1B /* PetCameraApp.swift */; };
+		8ADF2161D60B1C052547DA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B91FB40CC17BC47ECA3FD0 /* Assets.xcassets */; };
+		98BD6DFE0F3816E53D2214C8 /* PCFeatures in Frameworks */ = {isa = PBXBuildFile; productRef = 4BF7D815EE3D9443889D1374 /* PCFeatures */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B1669FC6E08DBCC646251AB /* PCCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PCCore; path = Packages/PCCore; sourceTree = SOURCE_ROOT; };
+		37CABEF2D809D9203D4AFD5E /* PetCamera.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PetCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC14A13DFF7A5BC38C06159 /* PCScene */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PCScene; path = Packages/PCScene; sourceTree = SOURCE_ROOT; };
+		AEBDDB100EEC76152F778C76 /* PCTracking */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PCTracking; path = Packages/PCTracking; sourceTree = SOURCE_ROOT; };
+		DDA5468BD13DC35B88F42B55 /* PCFeatures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PCFeatures; path = Packages/PCFeatures; sourceTree = SOURCE_ROOT; };
+		E7B91FB40CC17BC47ECA3FD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F30DB68A73536D2B9C11AC1B /* PetCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCameraApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9361C242DF539F1C90918FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BD6DFE0F3816E53D2214C8 /* PCFeatures in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268CB2B887A987D448260AD9 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2B1669FC6E08DBCC646251AB /* PCCore */,
+				DDA5468BD13DC35B88F42B55 /* PCFeatures */,
+				5DC14A13DFF7A5BC38C06159 /* PCScene */,
+				AEBDDB100EEC76152F778C76 /* PCTracking */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		D129D8A464DCD7CD7B31E7D5 = {
+			isa = PBXGroup;
+			children = (
+				DA40B4CB9002A77AB40963DA /* App */,
+				268CB2B887A987D448260AD9 /* Packages */,
+				F6B304603C43E1BA7ED55058 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA40B4CB9002A77AB40963DA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E7B91FB40CC17BC47ECA3FD0 /* Assets.xcassets */,
+				F30DB68A73536D2B9C11AC1B /* PetCameraApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F6B304603C43E1BA7ED55058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37CABEF2D809D9203D4AFD5E /* PetCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D909E346E49361695D3D7B46 /* PetCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7659991DBE7F5AD96852AC /* Build configuration list for PBXNativeTarget "PetCamera" */;
+			buildPhases = (
+				91D1188ECDBCC09FED1CB802 /* Sources */,
+				D57E16DEE83F7C3F328B933E /* Resources */,
+				9361C242DF539F1C90918FEC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetCamera;
+			packageProductDependencies = (
+				4BF7D815EE3D9443889D1374 /* PCFeatures */,
+			);
+			productName = PetCamera;
+			productReference = 37CABEF2D809D9203D4AFD5E /* PetCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		038076CDEB8AD761CA6E0D65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D909E346E49361695D3D7B46 = {
+						DevelopmentTeam = 3QVL9P7T78;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8C5FC860572E658D9F457524 /* Build configuration list for PBXProject "PetCamera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D129D8A464DCD7CD7B31E7D5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				61AFF9EEF473B9085A306785 /* XCLocalSwiftPackageReference "Packages/PCCore" */,
+				14F4DA2C5EC0C7EC966A39FF /* XCLocalSwiftPackageReference "Packages/PCFeatures" */,
+				AEF1654E1093B79AEE5F4902 /* XCLocalSwiftPackageReference "Packages/PCScene" */,
+				97F5D5580ADFF4F160E60F2A /* XCLocalSwiftPackageReference "Packages/PCTracking" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D909E346E49361695D3D7B46 /* PetCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57E16DEE83F7C3F328B933E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADF2161D60B1C052547DA50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91D1188ECDBCC09FED1CB802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285B7F71D8E135B944ED3326 /* PetCameraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02B902DED21331725C1C9E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QVL9P7T78;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "顔の動きを検出してペットカメラの視点を動かすためにカメラを使用します";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shibuya-yudai.petcamera";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7435D3AFE5F201AD5ADE9580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QVL9P7T78;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "顔の動きを検出してペットカメラの視点を動かすためにカメラを使用します";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shibuya-yudai.petcamera";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0CD0A31AF7954F42967D696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+			};
+			name = Debug;
+		};
+		ED05ED58C01186421BC27396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E7659991DBE7F5AD96852AC /* Build configuration list for PBXNativeTarget "PetCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B902DED21331725C1C9E37 /* Debug */,
+				7435D3AFE5F201AD5ADE9580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C5FC860572E658D9F457524 /* Build configuration list for PBXProject "PetCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CD0A31AF7954F42967D696 /* Debug */,
+				ED05ED58C01186421BC27396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		14F4DA2C5EC0C7EC966A39FF /* XCLocalSwiftPackageReference "Packages/PCFeatures" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PCFeatures;
+		};
+		61AFF9EEF473B9085A306785 /* XCLocalSwiftPackageReference "Packages/PCCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PCCore;
+		};
+		97F5D5580ADFF4F160E60F2A /* XCLocalSwiftPackageReference "Packages/PCTracking" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PCTracking;
+		};
+		AEF1654E1093B79AEE5F4902 /* XCLocalSwiftPackageReference "Packages/PCScene" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PCScene;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4BF7D815EE3D9443889D1374 /* PCFeatures */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PCFeatures;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 038076CDEB8AD761CA6E0D65 /* Project object */;
+}

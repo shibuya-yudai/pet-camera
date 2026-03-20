@@ -1,0 +1,23 @@
+# SwiftFormat configuration
+--swiftversion 5.10
+--indent 4
+--indentcase false
+--trimwhitespace always
+--voidtype void
+--stripunusedargs closure-only
+--maxwidth 120
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--closingparen balanced
+--self remove
+--importgrouping testable-bottom
+--header strip
+--ifdef no-indent
+
+# Disabled rules
+--disable redundantReturn
+--disable wrapMultilineStatementBraces
+
+# Exclude build directories
+--exclude .build,DerivedData,Packages/*/.build

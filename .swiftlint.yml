@@ -1,0 +1,76 @@
+# SwiftLint configuration
+# フォーマットは SwiftFormat に委任。ここでは品質・安全性ルールに集中。
+
+included:
+  - Packages
+  - App
+
+excluded:
+  - .build
+  - DerivedData
+  - Packages/*/.build
+
+disabled_rules:
+  # SwiftFormat と重複するスタイル系ルール（SwiftFormat側で処理）
+  - trailing_whitespace
+  - opening_brace
+  - closing_brace
+  - colon
+  - comma
+  - statement_position
+  - vertical_whitespace
+  - leading_whitespace
+  - return_arrow_whitespace
+  - trailing_comma
+
+opt_in_rules:
+  - force_unwrapping
+  - empty_count
+  - closure_spacing
+  - contains_over_filter_count
+  - contains_over_first_not_nil
+  - discouraged_optional_boolean
+  - empty_collection_literal
+  - fatal_error_message
+  - first_where
+  - last_where
+  - modifier_order
+  - overridden_super_call
+  - private_action
+  - redundant_nil_coalescing
+  - unowned_variable_capture
+  - vertical_parameter_alignment_on_call
+
+# カスタマイズ
+line_length:
+  warning: 120
+  error: 200
+
+type_body_length:
+  warning: 300
+  error: 500
+
+file_length:
+  warning: 500
+  error: 1000
+
+function_body_length:
+  warning: 50
+  error: 100
+
+identifier_name:
+  min_length:
+    warning: 2
+    error: 1
+  max_length:
+    warning: 60
+    error: 80
+  excluded:
+    - id
+    - x
+    - y
+    - z
+    - i
+    - j
+    - k
+    - dt
